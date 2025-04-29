@@ -1,0 +1,42 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package tugas9no1;
+
+/**
+ *
+ * @author FARIZ
+ */
+public class Objekgeometris {
+    private String warna = "putih";
+    private boolean terisi;
+
+    public Objekgeometris() {
+    }
+
+    public Objekgeometris(String warna, boolean terisi) {
+        this.warna = warna;
+        this.terisi = terisi;
+    }
+
+    public String getWarna() {
+        return warna;
+    }
+
+    public void setWarna(String warna) {
+        this.warna = warna;
+    }
+
+    public boolean isTerisi() {
+        return terisi;
+    }
+
+    public void setTerisi(boolean terisi) {
+        this.terisi = terisi;
+    }
+
+    public String toString() {
+        return "Warna: " + warna + " dan terisi: " + terisi;
+    }
+}
